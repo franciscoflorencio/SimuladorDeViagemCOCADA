@@ -1,6 +1,3 @@
----
-# IMPORTANTE!!! FAZER DOWNLOAD DO DATASET: https://drive.google.com/file/d/19g0f6WNUiDdSOyA1Ef_tK8Xcl2tjI9aN/view?usp=sharing
----
 # Simulador de Viagem entre Capitais Brasileiras
 
 ## Introdução
