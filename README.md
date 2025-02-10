@@ -36,15 +36,17 @@ Um semianel é uma generalização do monóide, definido como uma 5-tupla $(S, \
 
 ### Fecho e Ponto Fixo
 
-Um semianel fechado é uma extensão de um semianel $(S, \oplus, \cdot, 0, 1)$ com uma operação adicional de fecho, denotada por $*$. Formalmente, o fecho de $x \in S$, denotado por $x^*$, é definido como:
-\[ x^* = 1 \oplus x \oplus (x \cdot x) \oplus (x \cdot x \cdot x) \oplus \cdots \]
+Um semianel fechado é uma extensão de um semianel $(S, \oplus, \cdot, 0, 1)$ com uma operação adicional de fecho, denotada por \*. Formalmente, o fecho de $x \in S$, denotado por $x^*$, é definido como:
+
+![x^* = 1 \oplus x \oplus (x \cdot x) \oplus (x \cdot x \cdot x) \oplus \cdots](https://latex.codecogs.com/svg.image?x^*%20=%201%20\oplus%20x%20\oplus%20(x%20\cdot%20x)%20\oplus%20(x%20\cdot%20x%20\cdot%20x)%20\oplus%20\cdots)
 
 A operação de fecho é útil em várias aplicações, como resolver sistemas lineares em álgebra tropical e calcular caminhos mínimos em grafos.
 
 ### Aplicação em Grafos
 
 No caso de grafos ponderados, o fecho é utilizado para encontrar o menor caminho entre os vértices. Especificamente, no semianel min-plus, o fecho de uma matriz de adjacência $G$ é definido como:
-\[ G^* = \bigoplus_{n=1}^\infty G^n \]
+
+![G^* = \bigoplus_{n=1}^\infty G^n](https://latex.codecogs.com/svg.image?G^*%20=%20\bigoplus_{n=1}^\infty%20G^n)
 
 A convergência para o ponto fixo ocorre quando o valor de $G^{n+1}$ não difere de $G^n$.
 
